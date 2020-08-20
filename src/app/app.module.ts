@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EmployeeModule } from './employee/employee.module';
+import { LoginModule } from './login/login.module';
 
 @NgModule({
   declarations: [
@@ -11,6 +12,7 @@ import { EmployeeModule } from './employee/employee.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    LoginModule,
     EmployeeModule
   ],
   providers: [],
