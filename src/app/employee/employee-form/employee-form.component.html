@@ -1,0 +1,17 @@
+<div>
+    <h2>ADD Employees</h2>
+    <button (click)="onBack()">Back</button>
+    <form [formGroup]="employeeFG">
+        <div>
+            <label>Employee Name</label>
+            <input type="text" placeholder="Employee Name" formControlName="employeeName">
+        </div>
+        <div>
+            <label>Department</label>
+            <input type="text" placeholder="Department" formControlName="Department">
+        </div>
+        <div>
+            <button type="button" (click)="onSubmit()">Submit</button>
+        </div>
+    </form>
+</div>
